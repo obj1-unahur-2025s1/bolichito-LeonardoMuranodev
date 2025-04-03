@@ -5,7 +5,7 @@ object bolichito {
   var objetoEnVidriera = remera
   var objetoEnMostrador = pelota
 
-  method esBrillante() = objetoEnVidriera.esBrillante() && objetoEnMostrador.esBrillante()
+  method esBrillante() = objetoEnVidriera.material().esBrillante() && objetoEnMostrador.material().esBrillante()
   method esMonocromatico() = objetoEnVidriera.color() == objetoEnMostrador.color()
   method esEquilibrado() =  objetoEnMostrador.peso() > objetoEnVidriera.peso()
   method tieneColor(color) = objetoEnVidriera.color() == color || objetoEnMostrador.color() == color

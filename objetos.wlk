@@ -101,7 +101,7 @@ object cajita {
 //Colores
 
 object rojo {
-    method esFuerte() =  true
+  method esFuerte() =  true
 }
 
 object verde {
